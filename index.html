@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Receitas Veganas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Receitas Veganas</h1>
+    <form>
+      <label for="link">Digite o link da receita:</label>
+      <input type="text" id="link" name="link">
+      <input type="button" value="Gerar receita" onclick="gerarReceita()">
+    </form>
+    <div id="receita">
+      <p>Aqui será exibida a receita gerada automaticamente após o envio do link.</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
